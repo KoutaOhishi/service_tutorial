@@ -149,7 +149,7 @@ server側をpythonで書いてみましょう。
 clientから送られてきた秒数カウントダウンを行い、カウントが0になったら、clientにTrueと返してください。  
 プログラムは`service_tutorial/src/count_down_server.py`に書いてください。  
 解答例は`service_tutorial/src/SAMPLE_count_down_server.py`に書いてます。  
-プログラムが書けたら以下のコマンドを実行してください。
+プログラムが書けたらすべての端末を閉じた後、以下のコマンドを実行してください。
 ```
 #端末１
 roscore
