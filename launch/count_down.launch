@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="service_tutorial" name="count_down_server" type="SAMPLE_count_down_server.py" output="screen" />
+</launch>
