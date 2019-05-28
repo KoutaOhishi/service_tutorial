@@ -68,7 +68,7 @@ text_to_speech/TextToSpeech
 <実行結果>
 string text ← clientからserverに送る情報
 ---
-bool result ← serverが処理した結果をclientに送る情報
+bool result ← serverからclientに送る情報
 
 ```
 
