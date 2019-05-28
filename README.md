@@ -6,14 +6,14 @@
   - client(要求) と server(応答)
   - topic通信は単方向通信（pub/sub)
 - 同期的処理
-  - serverはclientから要求があった時だけ、処理を行い結果をclientに返す
+  - serverはclientから要求があった時だけ処理を行い、結果をclientに返す
   - clientはserverからの応答があるまで次の処理に進めない
   - 情報の受け渡しが確実に行われる
-  - 処理が終わると通信が切れる
+  - 処理が終わるとclientとserverの通信は切れる
 - topic通信との使い分け（個人的見解）
   - センサから得られる情報を扱う処理はtopic通信で行う
     - 情報の更新頻度が高いから
-  - それ以外はserive通信で書くのがbetter
+  - それ以外はservice通信で書くのがbetter
 
 ## Setup
 ```
