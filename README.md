@@ -21,7 +21,7 @@ cd ~/catkin_ws/src/
 
 git clone https://github.com/KoutaOhishi/service_tutorial.git
 
-git clone https://github.com/TeamSOBITS/text_to_speech.git
+git clone https://gitlab.com/TeamSOBITS/text_to_speech.git
 
 chmod 755 service_tutorial/src/*
 
