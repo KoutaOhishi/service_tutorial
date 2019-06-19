@@ -15,6 +15,8 @@
     - 情報の更新頻度が高いから
   - それ以外はservice通信で書くのがbetter
 
+TEST
+
 ## Setup
 ```
 cd ~/catkin_ws/src/
