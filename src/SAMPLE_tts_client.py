@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
         try:
             tts = rospy.ServiceProxy("/speech_word", TextToSpeech)
-            input_word = raw_input("Input sentence you want to speek. --> ")
+            input_word = raw_input("Input sentence you want to speak. --> ")
             flag = tts(input_word)
             rospy.loginfo(flag)
 
